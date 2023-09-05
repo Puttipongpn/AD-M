@@ -24,5 +24,8 @@ export class CartService {
     return this.counter;
   }
 
+  getcart(){
+    return this.cartProduct
+  }
 
 }
